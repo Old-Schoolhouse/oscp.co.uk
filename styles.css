@@ -742,8 +742,9 @@ table {
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
-		flex:1 0 35%;      /*does this fix weirdness on safari and ios?*/   
-		max-width:600px;
+		flex:1 0 35%;      /*does this fix weirdness on safari and ios?*/
+		max-width:600px;   
+		/*max-width:48%;*/
 	}
 	.big .thumb {
 		min-width:100%; 
