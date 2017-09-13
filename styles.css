@@ -699,7 +699,7 @@ table {
 		-webkit-flex-wrap: nowrap;
 		    -ms-flex-wrap: nowrap;
 		        flex-wrap: nowrap;
-	}
+	} 
 	.detail-page {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -772,7 +772,8 @@ table {
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
-		        flex: 1 0 35%;
+		flex:1 0 35%;      /*does this fix weirdness on safari and ios?*/
+		max-width:600px; 
 		/*max-width:48%;*/
 	}
 	.big .thumb {
