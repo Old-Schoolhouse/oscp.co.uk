@@ -166,11 +166,11 @@ body {
 	margin:-10px;
 }
 .staff-photo { 
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	min-width: 100px;
-	max-width: 200px;
+	display: block;
+	margin:auto;
+	margin-bottom: 20px;
+	width:100%;
+	max-width: 220px;
 }
 .volunteer-photo {
 	float: left;
@@ -616,6 +616,13 @@ table {
 /* --- end of flex rules --- */
 
 @media screen and (min-width: 420px){
+	.staff-photo { 
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		min-width: 100px;
+		max-width: 200px;
+}
 	.side-bar {
 		min-width: 200px; /*added to stop side bar collapsing in IE*/
 		min-height: 100%;
