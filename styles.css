@@ -254,7 +254,7 @@ td, th, tr {
 }
 .code-buddies {
 	display: block;
-	max-width: 600px;
+	max-width: 90%;
 	margin: auto;
 }
 
